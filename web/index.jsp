@@ -83,7 +83,7 @@
 
                     <label for="contraseña"><b>Contraseña</b></label>
                     <input type="password" placeholder="Ingresa tu contraseña" 
-                           name="contraseña" required 
+                           name="contraseña" id="contrasenia" required 
                            pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$">
 
                     <button class="btn-primary" type="submit">Login</button>

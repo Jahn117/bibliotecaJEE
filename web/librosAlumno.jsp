@@ -1,7 +1,7 @@
 <%-- 
     Document   : librosAlumno
     Created on : 18/07/2019, 01:29:28 PM
-    Author     : Jorge Hernandez
+    Author     : Melissa Gpe. Pérez Cabrera <perezc.melissa@gmail.com>
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -31,12 +31,13 @@
   </head>
   <body>
     <div class="container">
-        <h1>Libros del alumno</h1>
+        <h1>Libros del alumno {Usuario}</h1>
         <table class="table table-striped table-dark table-hover">
             <thead>
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Título</th>
+                    <th scope="col">Autor</th>
                     <th scope="col">ISBN</th>
                     <th scope="col">Número de páginas</th>
                     <th scope="col"></th>
@@ -46,6 +47,7 @@
                 <tr>
                     <th scope="row">1</th>
                     <td>Matematicas 1</td>
+                    <td>Jorge Hernandez</td>
                     <td>12-154-12365-12</td>
                     <td>255</td>
                     <td>
@@ -55,6 +57,7 @@
                 <tr>
                     <th scope="row">2</th>
                     <td>Física 1</td>
+                    <td>Marco Lopez</td>
                     <td>12-154-12365-15</td>
                     <td>110</td>
                     <td>
@@ -64,8 +67,8 @@
             </tbody>                       
         </table>
         <div class="row">
-            <a style="margin-left: 15px" class="btn btn-success" href="TablaLibros.html">Agregar libros</a>
-            <a style="margin-left: 15px" class="btn btn-warning" href="TablaAlumnos.html">Regresar</a>
+            <a style="margin-left: 15px" class="btn btn-success" href="librosDisponibles.jsp">Agregar libros</a>
+            <a style="margin-left: 15px" class="btn btn-warning" href="index.jsp">Cerrar Sesión</a>
         </div>
     </div>
 
