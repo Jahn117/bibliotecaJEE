@@ -43,14 +43,14 @@
                         <label for="titulo">Titulo del libro</label>
                         <input type="text" class="form-control" id="titulo" 
                                name="titulo" placeholder="Ingresa el título" 
-                               required>
+                               required pattern="^[A-Za-z0-9]+(?:[ _-][A-Za-z0-9]+)*$">
                     </div>
 
                     <div class="form-group">
                         <label for="autor">Autor</label>
                         <input type="text" class="form-control" id="autor" 
                                name="autor" placeholder="Ingresa el Autor" 
-                               required>
+                               required pattern="^([A-ZÁÉÍÓÚ]{1}[a-zñáéíóú]{1,24}[\s]*)+$">
                     </div>
 
                     <div class="form-group">
@@ -64,7 +64,7 @@
                         <label for="numPaginas">Numero de páginas</label>
                         <input type="text" class="form-control" id="numPaginas" 
                                name="numPaginas" placeholder="Escribe el número de páginas" 
-                               required pattern="">
+                               maxlenght="5" required pattern="^[1-9]\d*$">
                     </div>
 
                     <button type="submit" class="btn btn-primary">Enviar</button>
