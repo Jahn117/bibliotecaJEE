@@ -68,7 +68,7 @@
                     </div>
 
                     <button type="submit" class="btn btn-primary">Enviar</button>
-                    <a style="margin-left: 15px" class="btn btn-danger" href="index.php">Cancelar</a>
+                    <a style="margin-left: 15px" class="btn btn-danger" href="alumnosRegistrados.jsp">Cancelar</a>
                 </div>
             </form>
         </div>

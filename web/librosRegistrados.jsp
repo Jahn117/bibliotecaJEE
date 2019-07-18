@@ -2,6 +2,8 @@
     Document   : librosRegistrados
     Created on : 18/07/2019, 03:26:54 PM
     Author     : Jorge Hernandez
+    Nota       : SI EL ADMIN ES EL QUE CONSULTA ESTA PAGINA, ENTONCES EL BOTON
+                 REGRESAR LO TIENE QUE MANDAR A LA VISTA alumnosRegistrados.jsp
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
