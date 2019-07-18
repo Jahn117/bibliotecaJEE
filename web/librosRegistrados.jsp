@@ -1,7 +1,7 @@
 <%-- 
-    Document   : librosAlumno
-    Created on : 18/07/2019, 01:29:28 PM
-    Author     : Melissa Gpe. Pérez Cabrera <perezc.melissa@gmail.com>
+    Document   : librosRegistrados
+    Created on : 18/07/2019, 03:26:54 PM
+    Author     : Jorge Hernandez
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -13,7 +13,9 @@
               margin-top: 15px;
               text-align: center;              
           }
-          
+          .tbody{
+              vertical-align: middle;
+          }
           h1{
               padding-bottom: 10px;
           }
@@ -25,11 +27,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <title>Tabla de libros del Alumno</title>
+    <title>Tabla de libros registrados</title>
   </head>
   <body>
     <div class="container">
-        <h1>Libros del alumno {Usuario}</h1>
+        <h1>Libros registrados</h1>
         <table class="table table-striped table-dark table-hover">
             <thead>
                 <tr>
@@ -38,7 +40,7 @@
                     <th scope="col">Autor</th>
                     <th scope="col">ISBN</th>
                     <th scope="col">Número de páginas</th>
-                    <th scope="col"></th>
+                    <th scope="col">Status</th>
                 </tr>
             </thead>
             <tbody>
@@ -48,9 +50,7 @@
                     <td>Jorge Hernandez</td>
                     <td>12-154-12365-12</td>
                     <td>255</td>
-                    <td>
-                        <a class="btn btn-danger" href="#">Borrar libro</a>
-                    </td>
+                    <td>Disponible</td>
                 </tr>
                 <tr>
                     <th scope="row">2</th>
@@ -58,16 +58,12 @@
                     <td>Marco Lopez</td>
                     <td>12-154-12365-15</td>
                     <td>110</td>
-                    <td>
-                        <a class="btn btn-danger" href="#">Borrar libro</a>
-                    </td>
+                    <td>Usado</td>
                 </tr>
             </tbody>                       
         </table>
         <div class="row">
-            <a style="margin-left: 15px" class="btn btn-success" href="librosDisponibles.jsp">Agregar libros</a>
-            <a style="margin-left: 15px" class="btn btn-primary" href="librosRegistrados.jsp">Ver lista de libros</a>
-            <a style="margin-left: 15px" class="btn btn-warning" href="index.jsp">Cerrar Sesión</a>
+            <a style="margin-left: 15px" class="btn btn-warning" href="librosAlumno">Regresar</a>
         </div>
     </div>
 
