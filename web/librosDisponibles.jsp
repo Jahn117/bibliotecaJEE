@@ -58,7 +58,7 @@
                         <th scope="row">2</th>
                         <td>Física 1</td>
                         <td>Marco Lopez</td>
-                        <td>12-154-12365-15</td>
+                        <td>90-234-15675-15</td>
                         <td>110</td>
                         <td>
                             <input type="checkbox"></input>
