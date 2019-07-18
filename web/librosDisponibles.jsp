@@ -37,33 +37,37 @@
                     <tr>
                         <th scope="col">#</th>
                         <th scope="col">Título</th>
+                        <th scope="col">Autor</th>
                         <th scope="col">ISBN</th>
                         <th scope="col">Número de páginas</th>
-                        <th scope="col"></th>
+                        <th scope="col">Agregar</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
                         <td>Matematicas 1</td>
+                        <td>Jorge Hernández</td>
                         <td>12-154-12365-12</td>
                         <td>255</td>
                         <td>
-                            <a class="btn btn-success" href="#">Agregar</a>
+                            <input type="checkbox"></input>
                         </td>
                     </tr>
                     <tr>
                         <th scope="row">2</th>
                         <td>Física 1</td>
+                        <td>Marco Lopez</td>
                         <td>12-154-12365-15</td>
                         <td>110</td>
                         <td>
-                            <a class="btn btn-success" href="#">Agregar</a>
+                            <input type="checkbox"></input>
                         </td>
                     </tr>
                 </tbody>                       
             </table>
             <div class="row">
+                <button style="margin-left: 15px" class="btn btn-primary">Agregar selecciones</button>
                 <a style="margin-left: 15px" class="btn btn-warning" href="TablaLibrosAlumno.html">Cancelar</a>
             </div>
         </div>
