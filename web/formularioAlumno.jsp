@@ -88,7 +88,7 @@
                                name="contraseña" placeholder="Entre 8 y 16 dígitos de longitud" 
                                required minlength="8" maxlength="16"
                                pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$">
-                        <small id="contraseñaAyuda" class="form-text text-muted">
+                        <small id="contraseniaAyuda" class="form-text text-muted">
                             La contraseña debe tener al menos un dígito, una minúscula, una mayúscula y al menos un símbolo</small>
                     </div>
                     
