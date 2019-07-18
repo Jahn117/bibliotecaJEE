@@ -68,7 +68,7 @@
             </table>
             <div class="row">
                 <button style="margin-left: 15px" class="btn btn-primary">Agregar selecciones</button>
-                <a style="margin-left: 15px" class="btn btn-warning" href="TablaLibrosAlumno.html">Cancelar</a>
+                <a style="margin-left: 15px" class="btn btn-warning" href="librosAlumno.jsp">Cancelar</a>
             </div>
         </div>
 

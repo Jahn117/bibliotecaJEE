@@ -13,9 +13,7 @@
               margin-top: 15px;
               text-align: center;              
           }
-          .tbody{
-              vertical-align: middle;
-          }
+          
           h1{
               padding-bottom: 10px;
           }
