@@ -85,7 +85,7 @@
                     <div class="form-group">
                         <label for="contraseña">Contraseña</label>
                         <input type="password" class="form-control" id="contrasenia" 
-                               name="contraseña" placeholder="Entre 8 y 16 dígitos de longitud" 
+                               name="contrasenia" placeholder="Entre 8 y 16 dígitos de longitud" 
                                required minlength="8" maxlength="16"
                                pattern="^(?=\w*\d)(?=\w*[A-Z])(?=\w*[a-z])\S{8,16}$">
                         <small id="contraseniaAyuda" class="form-text text-muted">
