@@ -93,10 +93,9 @@
                     <span class="psw">No estás registrado? Regístrate <a href="formularioAlumno.jsp">aquí</a></span>
                 </div>
             </form>
-        </form>
-    </div>
+        </div>
 
     <!-- Optional JavaScript -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-</body>
+    </body>
 </html>

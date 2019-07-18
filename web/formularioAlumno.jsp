@@ -93,7 +93,7 @@
                     </div>
                     
                     <button type="submit" class="btn btn-primary">Registrarse</button>
-                    <a style="margin-left: 15px" class="btn btn-danger" href="index.php">Cancelar</a>
+                    <a style="margin-left: 15px" class="btn btn-danger" href="index.jsp">Cancelar</a>
                 </div>
             </form>
         </div>

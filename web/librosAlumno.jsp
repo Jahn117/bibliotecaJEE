@@ -66,6 +66,7 @@
         </table>
         <div class="row">
             <a style="margin-left: 15px" class="btn btn-success" href="librosDisponibles.jsp">Agregar libros</a>
+            <a style="margin-left: 15px" class="btn btn-primary" href="librosRegistrado.jsp">Ver lista de libros</a>
             <a style="margin-left: 15px" class="btn btn-warning" href="index.jsp">Cerrar Sesión</a>
         </div>
     </div>
