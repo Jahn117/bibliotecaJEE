@@ -90,7 +90,7 @@
                 </div>
 
                 <div class="pswd" style="background-color:#f1f1f1">
-                    <span class="psw">No estás registrado? Regístrate <a href="#">aquí</a></span>
+                    <span class="psw">No estás registrado? Regístrate <a href="formularioAlumno.jsp">aquí</a></span>
                 </div>
             </form>
         </form>
