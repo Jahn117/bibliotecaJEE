@@ -63,7 +63,7 @@
             </tbody>                       
         </table>
         <div class="row">
-            <a style="margin-left: 15px" class="btn btn-warning" href="librosAlumno">Regresar</a>
+            <a style="margin-left: 15px" class="btn btn-warning" href="librosAlumno.jsp">Regresar</a>
         </div>
     </div>
 
